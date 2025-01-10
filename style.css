@@ -6,6 +6,10 @@
     font-family: Fira Sans;
 }
 
+img {
+    object-fit: cover;
+}
+
 body {
     background-color: #F1F1F3;
 }
@@ -488,4 +492,37 @@ select {
     width: 150px;
     border-top-left-radius: 0px;
     border-bottom-left-radius: 0px;
+}
+
+
+/* designing footer  */
+footer {
+    height: 126px;
+    padding: 50px 239px;
+    background-color: #FFFFFF;
+    margin-top: 80px;
+}
+
+.footer-header {
+    width: 222px;
+    font-size: 32;
+    font-weight: 700;
+    margin: 0px auto;
+}
+
+.img-container {
+    width: 120px;
+    height: 24px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.img-container > img {
+    height: 24px;
+    width: 24px;
+}
+
+hr {
+    border: 0.5px solid rgba(14, 14, 14, 0.1);
 }
