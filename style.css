@@ -36,6 +36,12 @@ nav {
     background-color: transparent;
     border: 1px solid #006A50;
     border-radius: 8px;
+    font-weight: 600;
+}
+
+.nav-btn:hover {
+    background-color: #006A50;
+    color: white;
 }
 
 .banner {
@@ -252,6 +258,9 @@ button:hover {
     background-image: url("all-assets/assets/quote-bg.png");
     background-repeat: no-repeat;
     background-position: 24px 25px;
+    background-color: #FFFFFF;
+    border-radius: 16px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
 
 }
 
@@ -459,6 +468,7 @@ select {
     border: none;
     text-align: center;
     font-size: 20px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
 }
 
 /* styling the subscribe section  */
