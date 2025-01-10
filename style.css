@@ -315,6 +315,7 @@ select {
     background-color: rgba(198, 228, 214, 1);
     border: 2px solid rgba(14, 14, 14, 1);
     font-size: 16px;
+    border-radius: 4px;
 }
 
 .table-header {
@@ -356,11 +357,11 @@ select {
     margin-bottom: 8px;
 }
 
-.news-head-para > h1, .donate-header {
+.news-head-para > h1, .donate-header, .subscribe-title {
     font-size: 40px;
 }
 
-.news-head-para > p, .news-text, .donate-text {
+.news-head-para > p, .news-text, .donate-text, .subscribe-text {
     font-size: 16px;
     color: rgba(14, 14, 14, 0.7);
 }
@@ -454,4 +455,37 @@ select {
     border: none;
     text-align: center;
     font-size: 20px;
+}
+
+/* styling the subscribe section  */
+.subscribe {
+    height: 235px;
+    width: 750px;
+    padding: 80px 265px;
+    margin: 80px auto 0px auto;
+    background-color: #C6E4D6;
+    border-radius: 24px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.email-input-box {
+    height: 56px;
+    width: 750px;
+}
+
+.email-input-box > input {
+    width: 520px;
+    height: 19px;
+    border: none;
+    padding: 18px 40px;
+}
+
+.email-input-box > button {
+    height: 56px;
+    width: 150px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
 }
