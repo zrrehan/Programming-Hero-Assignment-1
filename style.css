@@ -78,6 +78,7 @@ nav {
     border: none;
     font-size: 18px;
     border-radius: 8px;
+    font-weight: 600;
 }
 
 #banner-btn {
@@ -123,7 +124,7 @@ button:hover {
     border: 1px solid rgba(14, 14, 14, 0.15);
 }
 
-#pillar-img {
+#pillar-img, #vision-img {
     height: 64px;
     width: 64px;
 }
@@ -141,4 +142,127 @@ button:hover {
 .card-writings {
     font-size: 16px;
     color: rgba(14, 14, 14, 0.7);
+}
+
+
+/* Designing Vision Section  */
+.vision-section{
+    width: 1280px;
+    height: 765px;
+    margin: 80px auto 0px auto;
+}
+
+.vision-text-box {
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.vision-text-box > h1 {
+    font-size: 40px;
+    font-weight: 700px;
+    color: rgba(14, 14, 14, 1);
+}
+
+.vision-text-box > p {
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+}
+
+/* Designing Box container of vision  */
+.vision-card-container {
+    height: 325px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 32px;
+}
+
+.vision-card {
+    height: 261px;
+    width: 346px;
+    padding: 32px;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.vision-card > button {
+    height: 41px;
+    width: 122px;
+} 
+
+.vision-card > img {
+    margin-bottom: 24px;
+}
+
+#vision-text {
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+    margin-top: 12px;
+}
+
+.card-text-container {
+    height: 132px;
+}
+.card-text-container > h2 {
+    font-size: 20px;
+    color:rgba(14, 14, 14, 0.8)
+}
+
+#blue {
+    background-color: rgba(84, 144, 245, 0.2);
+} 
+
+#green {
+    background-color: #C6E4D6;
+}
+
+#yellow {
+    background-color: #F7EBCF;
+}
+
+#blue > button {
+    background-color: #5490F5;
+}
+
+#green > button {
+    background-color: #09A15C;
+}
+
+#yellow > button {
+    background-color: #FFC239;
+}
+
+
+
+/* designing the quote */
+.quote {
+    height: 160px;
+    padding: 48px 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 32px;
+    background-image: url("all-assets/assets/quote-bg.png");
+    background-repeat: no-repeat;
+    background-position: 24px 25px;
+
+}
+
+.quote-text {
+    font-size: 16px;
+    color:rgba(14, 14, 14, 0.8);
+}
+
+
+.quote-name > h1 {
+    font-size: 20px;
+    color: rgba(14, 14, 14, 0.8);
+}
+
+.quote-name > p {
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.6);
 }
